@@ -1,20 +1,25 @@
 [general]
 name=Shapefile to GeoJSON Converter
 qgisMinimumVersion=3.22
-description=Convert multiple opened Shapefile layers into GeoJSON format with batch export, layer selection, output folder selection, and style preservation support for WebGIS workflows.
-version=1.0
+description=Convert multiple opened Shapefile layers into GeoJSON format with batch export, output folder selection, and WebGIS-ready outputs.
+version=1.0.0
 author=Onkar Keskar
 email=onkar.keskar99@gmail.com
+license=MIT
 
-about=This plugin allows users to export multiple loaded Shapefile layers into GeoJSON format directly from QGIS. It supports layer selection, batch conversion, output folder browsing, optional QML style export, and WebGIS-ready outputs. Designed for GIS professionals who need quick conversion from desktop GIS to browser-based mapping workflows.
+about=This plugin allows users to export multiple loaded Shapefile layers into GeoJSON format directly from QGIS. It supports layer selection, batch export, output folder browsing, Unicode filenames, optional QML style export, and WebGIS-ready outputs for Leaflet/OpenLayers workflows.
 
-tracker=https://github.com/yourusername/shapefile-to-geojson/issues
-repository=https://github.com/yourusername/shapefile-to-geojson
-homepage=https://github.com/yourusername/shapefile-to-geojson
+tracker=https://github.com/Okeskar/shapefile-to-geojson-converter/issues
+repository=https://github.com/Okeskar/shapefile-to-geojson-converter
+homepage=https://github.com/Okeskar/shapefile-to-geojson-converter
 
 category=Vector
 icon=icon.png
+
 experimental=False
 deprecated=False
+hasProcessingProvider=False
 
-tags=geojson, shapefile, export, webgis, leaflet, qml, conversion, gis
+plugin_dependencies=
+
+tags=geojson, shapefile, qgis, webgis, leaflet, export, conversion, gis, qml
